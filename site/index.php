@@ -47,7 +47,7 @@ if(isset($_POST["submit"])) {
 <body>
 
 <form action="upload.php" method="post" enctype="multipart/form-data">
-        Veuillez choisir une image:
+        Veuillez choisir une image svp :
         <input type="file" name="fileToUpload" id="fileToUpload">
         <input type="submit" value="Envoyer l'image" name="submit">
 </form>
